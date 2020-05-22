@@ -23,4 +23,7 @@ public class Reminder {
     @Column(nullable = false)
     private LocalDateTime reminderDateTime;
 
+    @Column(nullable = false)
+    private boolean remindByMailWhenOffline;
+
 }
